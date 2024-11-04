@@ -19,6 +19,9 @@
 -->
 ## Upcoming Release
 
+## Version 3.2.3
+* Added support for TLS 1.3 version update for `Set-AzWebApp`.
+
 ## Version 3.2.2
 * Fix bug where parameters could not be set to false for `Publish-AzWebApp`
 
