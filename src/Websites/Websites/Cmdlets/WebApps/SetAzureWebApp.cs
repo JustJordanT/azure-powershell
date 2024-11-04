@@ -132,8 +132,8 @@ namespace Microsoft.Azure.Commands.WebApps.Cmdlets.WebApps
         [Parameter(ParameterSetName = ParameterSet1Name, Mandatory = false, HelpMessage = "Ensure web app gets loaded all the time, rather unloaded after been idle.")]
         public bool AlwaysOn { get; set; }
 
-        [Parameter(ParameterSetName = ParameterSet1Name, Mandatory = false, HelpMessage = "The minimum version of TLS required for SSL requests. Allowed Values [1.0 | 1.1 | 1.2].")]
-        [ValidateSet("1.0", "1.1", "1.2")]
+        [Parameter(ParameterSetName = ParameterSet1Name, Mandatory = false, HelpMessage = "The minimum version of TLS required for SSL requests. Allowed Values [1.0 | 1.1 | 1.2 | 1.3].")]
+        [ValidateSet("1.0", "1.1", "1.2", "1.3")]
         public string MinTlsVersion { get; set; }
 
         [Parameter(ParameterSetName = ParameterSet1Name, Mandatory = false, HelpMessage = "Set the Ftps state value for an app. Allowed Values [AllAllowed | Disabled | FtpsOnly].")]
